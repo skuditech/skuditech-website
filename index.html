@@ -9,14 +9,13 @@
   <style>
     :root{color-scheme:dark;--blue:#16b9ff;--text:#edf6ff;--muted:#b2c3d4}
     *{box-sizing:border-box}html{min-height:100%}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(ellipse at 50% 12%,#123f68 0%,#0a223b 42%,#06111f 100%);color:var(--text);min-height:100vh}
-    .wrap{max-width:1100px;margin:auto;padding:28px 24px}.top{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:#d4e5f5;font-weight:700}.top a{color:#e7f4ff;text-decoration:none;font-weight:600}.top a:hover{color:var(--blue)}main{text-align:center;max-width:940px;margin:78px auto 90px}.logo{display:block;width:min(100%,850px);height:auto;margin:0 auto 34px;filter:drop-shadow(0 18px 40px #0007)}.eyebrow{color:#7cd9ff;font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;margin:0 0 18px}h1{font-size:clamp(32px,5vw,58px);letter-spacing:-.045em;line-height:1.08;margin:0 0 24px}p{font-size:clamp(16px,2vw,19px);line-height:1.8;color:var(--muted);max-width:700px;margin:0 auto}.cta{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(110deg,#02a8f4,#2277d8);color:white;border-radius:100px;padding:17px 34px;text-decoration:none;font-size:16px;font-weight:750;margin-top:38px;box-shadow:0 12px 35px #008ad340;transition:transform .2s}.cta:hover{transform:translateY(-3px)}footer{border-top:1px solid #ffffff20;padding:25px 0;text-align:center;color:#8da5bc;font-size:13px}@media(max-width:600px){.wrap{padding:22px 18px}.brand{font-size:11px}.top a{font-size:13px}main{margin:75px auto 85px}.logo{margin-bottom:40px}}
+    .wrap{max-width:1100px;margin:auto;padding:28px 24px}main{text-align:center;max-width:940px;margin:78px auto 90px}.logo{display:block;width:min(100%,850px);height:auto;margin:0 auto 34px;filter:drop-shadow(0 18px 40px #0007)}.eyebrow{color:#7cd9ff;font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;margin:0 0 18px}h1{font-size:clamp(32px,5vw,58px);letter-spacing:-.045em;line-height:1.08;margin:0 0 24px}p{font-size:clamp(16px,2vw,19px);line-height:1.8;color:var(--muted);max-width:700px;margin:0 auto}.cta{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(110deg,#02a8f4,#2277d8);color:white;border-radius:100px;padding:17px 34px;text-decoration:none;font-size:16px;font-weight:750;margin-top:38px;box-shadow:0 12px 35px #008ad340;transition:transform .2s}.cta:hover{transform:translateY(-3px)}footer{border-top:1px solid #ffffff20;padding:25px 0;text-align:center;color:#8da5bc;font-size:13px}@media(max-width:600px){.wrap{padding:22px 18px}main{margin:75px auto 85px}.logo{margin-bottom:40px}}
     .specialties{margin-top:64px;text-align:left}
     .specialties h2{font-size:clamp(24px,4vw,34px);text-align:center;margin:0 0 24px}
     .specialty-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
     .specialty{border:1px solid #38536d;border-radius:14px;background:#0c1d30;padding:24px}
     .specialty h3{color:#9ce3ff;margin:0 0 12px;font-size:21px}
     .specialty p{font-size:16px;line-height:1.6;color:var(--muted)}
-    .top nav{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:flex-end}
     a:focus-visible{outline:2px solid #9ce3ff;outline-offset:5px}
     @media(max-width:720px){.specialty-grid{grid-template-columns:1fr}}
     @media(prefers-reduced-motion:reduce){.cta{transition:none}.cta:hover{transform:none}}
@@ -24,7 +23,6 @@
 </head>
 <body>
   <div class="wrap">
-    <header class="top"><div class="brand">Skudi Technologies</div><nav aria-label="Main navigation"><a href="#contact">Contact</a></nav></header>
     <main>
       <img class="logo" src="logo.png" alt="Skudi Technologies — Engineering What's Next">
       <h1>Practical technology for small businesses.</h1>
